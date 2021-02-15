@@ -1,0 +1,5 @@
+x=list(map(int,input().split()))
+k=int(input())
+k=k%len(x)
+print(*x[-k:], end=" ")
+print(*x[:-k])
